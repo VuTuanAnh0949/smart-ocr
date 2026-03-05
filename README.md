@@ -30,28 +30,6 @@
 
 An advanced application that performs Optical Character Recognition (OCR) on images and PDFs, extracts text with layout preservation, and provides a question-answering interface based on the extracted content. It leverages machine learning models, state-of-the-art OCR engines, and modern NLP techniques to enable users to interactively query their documents.
 
-## Screenshots
-
-### Main Interface
-
-![Main Interface](docs/screenshots/main-interface.png)
-_Modern dark theme with glassmorphism design_
-
-### OCR Processing
-
-![OCR Processing](docs/screenshots/ocr-processing.png)
-_Real-time text extraction from images and PDFs_
-
-### Q&A Interface
-
-![Q&A Interface](docs/screenshots/qa-interface.png)
-_Ask questions about extracted document content_
-
-### Export Options
-
-![Export Options](docs/screenshots/export-options.png)
-_Download as TXT, Markdown, or Word with formatting_
-
 ## Features
 
 ### Core Features
@@ -86,8 +64,8 @@ _Download as TXT, Markdown, or Word with formatting_
 1. **Clone repository:**
 
    ```bash
-   git clone https://github.com/VuTuanAnh0949/OCR-Image-to-text.git
-   cd OCR-Image-to-text
+   git clone https://github.com/VuTuanAnh0949/smart-ocr.git
+   cd smart-ocr
    ```
 
 2. **Install dependencies:**
@@ -133,8 +111,8 @@ _Download as TXT, Markdown, or Word with formatting_
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/VuTuanAnh0949/OCR-Image-to-text.git
-   cd OCR-Image-to-text
+   git clone https://github.com/VuTuanAnh0949/smart-ocr.git
+   cd smart-ocr
    ```
 
 2. Install the required packages:
@@ -249,7 +227,7 @@ RUN_FULL_APP.bat
 
 ```bash
 # Activate environment (if using conda/venv)
-conda activate OCR-Image-to-text
+conda activate smart-ocr
 
 # Run Streamlit app
 streamlit run ocr_app\ui\web_app.py
@@ -656,7 +634,7 @@ For detailed instructions on using the new features (Word export, Vietnamese sup
 
 - 📧 Email: [vutuananh0949@gmail.com](mailto:vutuananh0949@gmail.com)
 - 💻 GitHub: [@VuTuanAnh0949](https://github.com/VuTuanAnh0949)
-- 🐛 Issues: [GitHub Issues](https://github.com/VuTuanAnh0949/OCR-Image-to-text/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/VuTuanAnh0949/smart-ocr/issues)
 
 ## License
 
@@ -685,4 +663,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Developed by Vũ Tuấn Anh** | [View on GitHub](https://github.com/VuTuanAnh0949/OCR-Image-to-text)
+**Developed by Vũ Tuấn Anh** | [View on GitHub](https://github.com/VuTuanAnh0949/smart-ocr)
