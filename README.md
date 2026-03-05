@@ -9,6 +9,15 @@
 
 **Status:** Production Ready | **Performance:** 16.7x Faster | **Version:** 2.0
 
+---
+
+<div align="center">
+  <img src="demo.png" alt="AI OCR Pro Demo" width="100%">
+  <p><em>AI OCR Pro - Modern interface with intelligent text extraction</em></p>
+</div>
+
+---
+
 ## Performance Highlights
 
 - 16.7x faster than baseline with optimized batch processing
@@ -20,6 +29,28 @@
 ## Description
 
 An advanced application that performs Optical Character Recognition (OCR) on images and PDFs, extracts text with layout preservation, and provides a question-answering interface based on the extracted content. It leverages machine learning models, state-of-the-art OCR engines, and modern NLP techniques to enable users to interactively query their documents.
+
+## Screenshots
+
+### Main Interface
+
+![Main Interface](docs/screenshots/main-interface.png)
+_Modern dark theme with glassmorphism design_
+
+### OCR Processing
+
+![OCR Processing](docs/screenshots/ocr-processing.png)
+_Real-time text extraction from images and PDFs_
+
+### Q&A Interface
+
+![Q&A Interface](docs/screenshots/qa-interface.png)
+_Ask questions about extracted document content_
+
+### Export Options
+
+![Export Options](docs/screenshots/export-options.png)
+_Download as TXT, Markdown, or Word with formatting_
 
 ## Features
 
