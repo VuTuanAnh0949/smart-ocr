@@ -1,0 +1,271 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Distribution / Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytest_cache/
+
+# ==============================
+# IDE & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==============================
+# OCR Specific
+# ==============================
+
+# Temporary upload/output folders
+uploads/
+cache/
+temp/
+tmp/
+output/
+
+# Test images (keep sample images if needed)
+test_images/
+test_data/
+
+# Large datasets
+dataset/
+data/
+samples/
+
+# OCR Results/Exports
+results/
+exports/
+*.docx
+*.xlsx
+extracted_text*.txt
+ocr_output*.md
+
+# ==============================
+# ML Models & Weights
+# ==============================
+
+# Keep downloaded Hugging Face models in models/ folder
+# but ignore other model formats
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pb
+*.tflite
+*.mlmodel
+
+# Model checkpoints
+checkpoints/
+saved_models/
+
+# ==============================
+# Logs & Debugging
+# ==============================
+*.log
+*.tmp
+logs/
+debug.log
+error.log
+streamlit.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ==============================
+# Compressed Files
+# ==============================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Windows
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ==============================
+# Environment & Config
+# ==============================
+.env
+.env.local
+.env.*.local
+*.secret
+secrets.yaml
+config.local.json
+
+# API Keys (be extra careful!)
+*api_key*
+*API_KEY*
+*secret*
+*SECRET*
+
+# ==============================
+# Docker
+# ==============================
+.dockerignore
+docker-compose.override.yml
+
+# ==============================
+# Version Control
+# ==============================
+*.orig
+*.rej
+*.patch
+
+# ==============================
+# Backup Files
+# ==============================
+*.bak
+*.backup
+*.old
+*~
+*.swp
+*.swo
+
+# ==============================
+# Reports & Analysis (Old/Generated)
+# ==============================
+*COMPLETION_REPORT*.md
+*_REPORT.md
+*_SUMMARY.md
+*_output.html
+*_output.md
+
+# ==============================
+# Node Modules (if using npm for any frontend)
+# ==============================
+node_modules/
+package-lock.json
+yarn.lock
+
+# ==============================
+# Keep These Important Files
+# ==============================
+!.gitignore
+!README.md
+!requirements.txt
+!requirements_enhanced.txt
+!LICENSE
+!Dockerfile
+!.dockerignore
+
+# Keep model directories structure but ignore contents
+!models/
+models/*
+!models/**/.gitkeep
+!models/ocr_config.json
+!models/qa_model/
+!models/sentence_transformer/
+
+# Keep static assets
+!static/
+!static/**/*.css
+!static/**/*.js
+!static/**/*.html
+
+# ==============================
+# Project Specific Exceptions
+# ==============================
+# Add any project-specific files to keep here
