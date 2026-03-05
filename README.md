@@ -1,6 +1,6 @@
 # AI OCR Pro - Intelligent Text Extraction
 
-**Developed by: Vũ Tuấn Anh**  
+**Developed by: Vu Tuan Anh**  
 [vutuananh0949@gmail.com](mailto:vutuananh0949@gmail.com) | [GitHub: VuTuanAnh0949](https://github.com/VuTuanAnh0949)
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -54,8 +54,6 @@ An advanced application that performs Optical Character Recognition (OCR) on ima
 - **Image Embedding**: Original images embedded in Word exports for reference
 - **Rich Text Formatting**: Bold, italic, headings, and lists preserved in exports
 - **Multiple Export Formats**: TXT, Markdown, and Word (.docx) with one click
-
-> **[View detailed feature guide](HUONG_DAN_TINH_NANG_MOI.md)**
 
 ## Quick Start
 
@@ -121,7 +119,7 @@ An advanced application that performs Optical Character Recognition (OCR) on ima
    pip install -r requirements.txt
    ```
 
-3. **🆕 Install Enhanced Features** (for Word export, Vietnamese support, etc.):
+3. **Install Enhanced Features** (for Word export, Vietnamese support, etc.):
 
    ```bash
    pip install -r requirements_enhanced.txt
@@ -611,30 +609,25 @@ You can create a custom configuration file at `ocr_app/config/config.json`:
 - **Underthesea**: Vietnamese NLP toolkit
 - **SymPy & LaTeX2MathML**: Math formula processing
 
-## Enhanced Features Guide
-
-For detailed instructions on using the new features (Word export, Vietnamese support, math formulas), see:
-**[HƯỚNG DẪN TÍNH NĂNG MỚI](HUONG_DAN_TINH_NANG_MOI.md)**
-
 ## Export Format Comparison
 
-| Feature | TXT | Markdown | Word (.docx) |
-|---------|-----|----------|--------------||
-| Plain Text | Yes | Yes | Yes |
-| Formatting (bold, italic) | No | Yes | Yes |
-| Original Image Embedded | No | No | Yes |
-| Layout Preservation | Partial | Partial | Complete |
-| Table Formatting | No | Yes | Enhanced |
-| Metadata (author, date) | No | No | Yes |
-| Multi-page Support | Yes | Yes | Best |
+| Feature                   | TXT     | Markdown | Word (.docx) |
+| ------------------------- | ------- | -------- | ------------ |
+| Plain Text                | Yes     | Yes      | Yes          |
+| Formatting (bold, italic) | No      | Yes      | Yes          |
+| Original Image Embedded   | No      | No       | Yes          |
+| Layout Preservation       | Partial | Partial  | Complete     |
+| Table Formatting          | No      | Yes      | Enhanced     |
+| Metadata (author, date)   | No      | No       | Yes          |
+| Multi-page Support        | Yes     | Yes      | Best         |
 
 ## Contact & Support
 
-**Vũ Tuấn Anh**
+**Vu Tuan Anh**
 
-- 📧 Email: [vutuananh0949@gmail.com](mailto:vutuananh0949@gmail.com)
-- 💻 GitHub: [@VuTuanAnh0949](https://github.com/VuTuanAnh0949)
-- 🐛 Issues: [GitHub Issues](https://github.com/VuTuanAnh0949/smart-ocr/issues)
+- Email: [vutuananh0949@gmail.com](mailto:vutuananh0949@gmail.com)
+- GitHub: [@VuTuanAnh0949](https://github.com/VuTuanAnh0949)
+- Issues: [GitHub Issues](https://github.com/VuTuanAnh0949/smart-ocr/issues)
 
 ## License
 
@@ -663,4 +656,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Developed by Vũ Tuấn Anh** | [View on GitHub](https://github.com/VuTuanAnh0949/smart-ocr)
+**Developed by Vu Tuan Anh** | [View on GitHub](https://github.com/VuTuanAnh0949/smart-ocr)
